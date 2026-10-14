@@ -8,7 +8,8 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = "8871448974:AAGNLO9tQ_G5I0Ef7a4u0qNSy4mFtWoCw-E"
+import os
+TOKEN = os.environ["8871448974:AAGNLO9tQ_G5I0Ef7a4u0qNSy4mFtWoCw-E"]
 
 # =====================================
 # RETSEPTLAR
